@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="boxs">0</h1>
+    <button onclick="
+    let math=Math.random()
+    let dicevalue='';
+    console.log(math)
+    if(math>=0.1 && math<=0.66 )
+    {
+        dicevalue=1;
+        document.querySelector('h1').innerText=dicevalue;
+    }
+
+    if(math>=0.166 && math<=0.322 )
+    {
+        dicevalue=2;
+        document.querySelector('h1').innerText=dicevalue;
+    }
+
+    if(math>=0.322 && math<=0.488 )
+    {
+        dicevalue=3;
+        document.querySelector('h1').innerText=dicevalue;
+    }
+    
+    if(math>=0.488 && math<=0.644 )
+    {
+        dicevalue=4;
+        document.querySelector('h1').innerText=dicevalue;
+    }
+    
+    if(math>=0.644 && math<=0.800 )
+    {
+        dicevalue=5;
+        document.querySelector('h1').innerText=dicevalue;
+    }
+    
+    if(math>=0.800 && math<=1.0 )
+    {
+        dicevalue=6;
+        document.querySelector('h1').innerText=dicevalue;
+    }
+
+    if(dicevalue==1){
+        console.log('one')
+    }
+
+    
+    if(dicevalue==2){
+        console.log('two')
+    }
+
+    
+    if(dicevalue==3){
+        console.log('three')
+    }
+
+    
+    if(dicevalue==4){
+        console.log('four')
+    }
+
+    
+    if(dicevalue==5){
+        console.log('five')
+    }
+
+
+    
+    if(dicevalue==6){
+        console.log('six')
+    }
+    
+    
+    
+    ">dice</button>
+</body>
+</html>
